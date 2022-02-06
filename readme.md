@@ -5,4 +5,3 @@ This repository is used to create Scientific Calculator using C programming lang
 * Sololearn
 * Cisco
 * Github learning
-* test
