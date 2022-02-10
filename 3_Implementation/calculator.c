@@ -4,7 +4,7 @@
 void calculator() 
 {
     int cal_mode;
-    printf("press \n 1 for addition \n 2 for substraction \n 3 for multiplication \n 4 for  division \n 5 for remainder \n");
+    printf("press \n 1 for addition \n 2 for substraction \n 3 for multiplication \n 4 for  division \n 5 for remainder \n 6 for square \n 7 for squareroot \n");
     scanf("%d",&cal_mode);
 
     switch (cal_mode)
@@ -78,6 +78,27 @@ void calculator()
              break; 
         }
 
+         case 6: 
+        {
+             printf("enter number \n");
+             int num1,sq;
+             scanf("%d",&num1);
+             sq=num1*num1;
+             printf(" Square of %d  = %d \n",num1 ,sq);
+ 
+             break; 
+        }
+
+         case 7: 
+        {
+             printf("enter number \n");
+             float num1,sqroot;
+             scanf("%f",&num1);
+             sqroot=sqrt(num1);
+             printf(" Square root of %f = %f \n",num1 ,sqroot);
+ 
+             break; 
+        }
 
          default:
          {
