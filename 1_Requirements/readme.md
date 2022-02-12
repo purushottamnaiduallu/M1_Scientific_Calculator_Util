@@ -47,6 +47,23 @@
   * Low Cost
   * Easier Access
 
+  # SWOT ANALYSIS
+  ## Strengths
+  * It makes calculations and conversions easily.
+  * We can access it from anywhere.
+  * It is available for 24/7.
+
+  ## Weaknesses
+  * Poor graphical user interface.
+  * Limited to some features.
+
+  ## Opportunities
+  * User friendly
+  * It can be used for mutli purpose like calculations, conversions.
+
+  ## Threats
+  * Limited access
+
   # 4 W's and 1 H
   ## Who
   Anyone can use this.
