@@ -207,3 +207,9 @@ src/testcalc.c:118:test_div:PASS
 * 2 for Meters to Cenitimeters
 * 3 for Meters to Kilometers
 * 4 for Kilometers to Meters
+
+# Testcase
+![](https://github.com/purushottamnaiduallu/M1_Scientific_Calculator_Util/blob/50dfeb69a40a8d15b3c6fe4aae710219d596f842/4_TestPlanAndOutput/Testcase.png)
+
+# Sample input
+![](https://github.com/purushottamnaiduallu/M1_Scientific_Calculator_Util/blob/50dfeb69a40a8d15b3c6fe4aae710219d596f842/4_TestPlanAndOutput/sample%20input.png)
