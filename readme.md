@@ -8,8 +8,6 @@ This repository is used to create Scientific Calculator using C programming lang
 
 
 
-* [![Build-linux](https://github.com/purushottamnaiduallu/M1_Scientific_Calculator_Util/actions/workflows/main.yml/badge.svg)](https://github.com/purushottamnaiduallu/M1_Scientific_Calculator_Util/actions/workflows/main.yml)
-
 * [![Unit Testing](https://github.com/purushottamnaiduallu/M1_Scientific_Calculator_Util/actions/workflows/unittestmain.yml/badge.svg)](https://github.com/purushottamnaiduallu/M1_Scientific_Calculator_Util/actions/workflows/unittestmain.yml)
 
 * [![STATIC ANALYSIS](https://github.com/purushottamnaiduallu/M1_Scientific_Calculator_Util/actions/workflows/cppcheckmain.yml/badge.svg)](https://github.com/purushottamnaiduallu/M1_Scientific_Calculator_Util/actions/workflows/cppcheckmain.yml)
@@ -19,3 +17,7 @@ This repository is used to create Scientific Calculator using C programming lang
 * ![Codiga](https://api.codiga.io/project/31233/score/svg)
 
 * ![Codiga](https://api.codiga.io/project/31233/status/svg)
+
+
+* [![Build-linux](https://github.com/purushottamnaiduallu/M1_Scientific_Calculator_Util/actions/workflows/main.yml/badge.svg)](https://github.com/purushottamnaiduallu/M1_Scientific_Calculator_Util/actions/workflows/main.yml)
+
