@@ -19,21 +19,3 @@ This repository is used to create Scientific Calculator using C programming lang
 
 * ![Codiga](https://api.codiga.io/project/31233/status/svg)
 
-
-<<<<<<< HEAD
-* [![Build-linux](https://github.com/purushottamnaiduallu/M1_Scientific_Calculator_Util/actions/workflows/main.yml/badge.svg)](https://github.com/purushottamnaiduallu/M1_Scientific_Calculator_Util/actions/workflows/main.yml)
-
-
-
-## Folder Structure
-Folder                   | Description
--------------------------| -----------------------------------------
-`0_Certificates`         | Certificates earned during the course
-`1_Requirements`         | Documents detailing requirements and research
-`2_Architecture`         | Behavioural and Structural UML Diagrams(Both High Level and Low Level)
-`3_Implemenatation `     | All code and documentation
-`4_Test plan and output `| Documents with test plans and procedures and Output
-`5_Report`               | Documentation of whole project
-`6_ImagesAndVideos`      | Code Execution Images and Videos
-=======
->>>>>>> 826b8cdeccc7ac8dbc827368f9422ff18374d63a
