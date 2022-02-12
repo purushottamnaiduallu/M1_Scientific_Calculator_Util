@@ -1,4 +1,4 @@
-name: Build-linux
+name: Build
 
 on:
   push:
@@ -13,5 +13,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: make
-      run: make Run -C 3_Implementation/version2
+    
+    - name: make all
+      run: make all -C 3_Implementation
+ 
+    
