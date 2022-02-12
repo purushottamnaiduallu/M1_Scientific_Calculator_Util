@@ -7,14 +7,14 @@ int main ()
 {
      test();
     int type;
-    printf("**********  Function in Scientific Calculator  ********** \n");
+    printf("**********  Functions in Scientific Calculator  ********** \n");
     printf("press \n 1 for Calculator \n 2 for Memory conversion \n 3 for Currency Conversion \n 4 for Unit Conversion \n");
     scanf("%d",&type);
     switch (type)
     {
         case 1:
           {
-                printf("Functions in calculator \n");
+               printf("**********  Functions in Calculator  ********** \n");
                 int cal_mode;
                 printf("press \n 1 for Addition \n 2 for Substraction \n 3 for Multiplication \n 4 for Division \n 5 for Square \n ");
                 scanf("%d",&cal_mode);
@@ -87,6 +87,7 @@ int main ()
         case 2:
         
           {
+               printf("**********  Functions in Memory Conversion  ********** \n");
                 int tri;
                 printf("Press \n 1 for Kilobytes to Megabytes \n 2 for Megabytes to Kilobytes \n 3 for Megabytes to Gigabytes \n 4 for Gigabytes to Megabytes \n");
                 scanf("%d",&tri);
@@ -143,10 +144,11 @@ int main ()
                     
         case 3:
           {
-                    int a;
-                    printf("Press\n 1 for Rupees to Dollar\n 2 for Dollar to Rupees \n");
-                    printf(" 3 for Rupees to Euro \n 4 for Euro to Rupees \n");
-                    scanf("%d",&a);
+               printf("**********  Functions in Currency Conversion  ********** \n");
+                int a;
+                printf("Press\n 1 for Rupees to Dollar\n 2 for Dollar to Rupees \n");
+                printf(" 3 for Rupees to Euro \n 4 for Euro to Rupees \n");
+                scanf("%d",&a);
 
                     switch(a)
                     {
@@ -200,54 +202,55 @@ int main ()
         case 4:
 
           {
-               int a;
-               printf("Press \n 1 for Centimeters to Meters \n");
-               printf(" 2 for Meters to Cenitimeters \n 3 for Meters to Kilometers \n 4 for Kilometers to Meters \n ");
-               scanf("%d",&a);
+               printf("**********  Functions in Unit Conversion  ********** \n");
+                int a;
+                printf("Press \n 1 for Centimeters to Meters \n");
+                printf(" 2 for Meters to Cenitimeters \n 3 for Meters to Kilometers \n 4 for Kilometers to Meters \n ");
+                scanf("%d",&a);
 
-               switch(a)
-               {
-                    case 1:
+                    switch(a)
                     {
-                         float cm,m;
-                         printf("Enter Centimeters \n");
-                         scanf("%f",&cm);
-                         m=cm_m(cm); // cm_m function is called
-                         printf("%f Centimeters = %f Meters \n",cm,m);
-                          break;
-                    }
-                    case 2:
-                    {
-                         float m,cm;
-                         printf("Enter Meters \n");
-                         scanf("%f",&m);
-                         cm=m_cm(m); // m_cm function is called
-                         printf("%f Meters = %f Centimeters \n",m,cm);
-                         break;
-                    }
-                    case 3:
-                    {
-                         float m,km;
-                         printf("Enter Meters \n");
-                         scanf("%f",&m);
-                         km=m_km(m); // m_km function is called
-                         printf("%f Meters = %f Kilometers \n",m,km);                        
-                         break;
-                    }
-                    case 4:
-                    {
-                         float km, m;
-                         printf("Enter Kiloeters \n");
-                         scanf("%f",&km);
-                         m=km_m(km); // km_m function is called
-                         printf("%f Kiloeters = %f Meters \n",km,m);
-                         break;
-                    }
-                default:
-                    {             
-                    printf("The number you entered is out of the list \n");
-                    }
-                    break;   
+                         case 1:
+                         {
+                              float cm,m;
+                              printf("Enter Centimeters \n");
+                              scanf("%f",&cm);
+                              m=cm_m(cm); // cm_m function is called
+                              printf("%f Centimeters = %f Meters \n",cm,m);
+                              break;
+                         }
+                         case 2:
+                         {
+                              float m,cm;
+                              printf("Enter Meters \n");
+                              scanf("%f",&m);
+                              cm=m_cm(m); // m_cm function is called
+                              printf("%f Meters = %f Centimeters \n",m,cm);
+                              break;
+                         }
+                         case 3:
+                         {
+                              float m,km;
+                              printf("Enter Meters \n");
+                              scanf("%f",&m);
+                              km=m_km(m); // m_km function is called
+                              printf("%f Meters = %f Kilometers \n",m,km);                        
+                              break;
+                         }
+                         case 4:
+                         {
+                              float km, m;
+                              printf("Enter Kiloeters \n");
+                              scanf("%f",&km);
+                              m=km_m(km); // km_m function is called
+                              printf("%f Kiloeters = %f Meters \n",km,m);
+                              break;
+                         }
+                    default:
+                         {             
+                         printf("The number you entered is out of the list \n");
+                         }
+                         break;   
                }
           } 
           break;
