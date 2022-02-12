@@ -7,6 +7,7 @@ int main ()
 {
      test();
     int type;
+    printf("**********  Function in Scientific Calculator  ********** \n");
     printf("press \n 1 for Calculator \n 2 for Memory conversion \n 3 for Currency Conversion \n 4 for Unit Conversion \n");
     scanf("%d",&type);
     switch (type)
